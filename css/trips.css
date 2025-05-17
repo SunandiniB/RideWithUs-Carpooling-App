@@ -1,0 +1,165 @@
+table.trips {
+    margin-top: 20px;
+}
+
+table.trips td {
+    vertical-align: middle;
+}
+
+table.trips .driver {
+    width: 100px;
+}
+
+table.trips .departure {
+    width: 150px;
+}
+
+table.trips .riders {
+    width: 50px;
+    text-align: center;
+}
+
+table.trips .action {
+    width: 150px;
+    text-align: center;
+}
+
+table.trips .status {
+    width: 120px;
+}
+
+#trips-driving-status {
+    text-align: center;
+}
+
+#modal-ride-requests .accordion-toggle {
+    display: inline-block;
+}
+
+#modal-ride-requests .btn-group {
+    display: inline-block;
+    float: right;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+
+#modal-ride-requests-status {
+    text-align: center;
+}
+
+#modal-ride-requests-spots-remaining {
+    margin-bottom: 5px;
+}
+
+#trips-riding-status {
+    text-align: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    table.trips {
+        font-size: 0.85em;
+    }
+
+    table.trips td {
+        padding: 4px;
+    }
+
+    .btn-group .btn {
+        font-size: 0.85em;
+        padding: 4px 8px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    table.trips {
+        font-size: 0.8em;
+    }
+
+    table.trips td {
+        padding: 3px;
+    }
+
+    .btn-group .btn {
+        font-size: 0.8em;
+        padding: 3px 6px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    table.trips {
+        font-size: 0.75em;
+    }
+
+    table.trips td {
+        padding: 2px;
+    }
+
+    .btn-group .btn {
+        font-size: 0.75em;
+        padding: 2px 4px;
+    }
+
+    table.trips .driver {
+        width: 80px;
+    }
+
+    table.trips .departure {
+        width: 120px;
+    }
+
+    table.trips .riders {
+        width: 40px;
+    }
+
+    table.trips .action {
+        width: 100px;
+    }
+
+    table.trips .status {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    table.trips {
+        font-size: 0.7em;
+    }
+
+    table.trips td {
+        padding: 1px;
+    }
+
+    .btn-group .btn {
+        font-size: 0.7em;
+        padding: 1px 3px;
+    }
+
+    table.trips .driver {
+        width: 70px;
+    }
+
+    table.trips .departure {
+        width: 100px;
+    }
+
+    table.trips .riders {
+        width: 30px;
+    }
+
+    table.trips .action {
+        width: 80px;
+    }
+
+    table.trips .status {
+        width: 80px;
+    }
+
+    .btn-group .btn i {
+        display: none;
+    }
+
+    .btn-group .btn span {
+        display: none;
+    }
+}
